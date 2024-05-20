@@ -56,9 +56,6 @@ const bookingSlice = createSlice({
     setSelectRange: (state, action) => {
       state.selectRange = action.payload;
     },
-    clearState: () => {
-      return initialState;
-    },
     handleSelect: (state, action) => {
       console.log("ac", action);
       state.isSlotSelected = true;

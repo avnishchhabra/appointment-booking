@@ -184,7 +184,10 @@ const Form = () => {
             </p>
           </div>
 
-          <button onClick={dispatch(clearState)} className={styles.back_btn}>
+          <button
+            onClick={() => window.location.reload()}
+            className={styles.back_btn}
+          >
             Go Back
           </button>
         </div>
