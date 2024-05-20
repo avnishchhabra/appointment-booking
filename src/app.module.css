@@ -1,0 +1,27 @@
+.body_container {
+  width: 100%;
+  margin-top: 90px;
+}
+
+.right {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .body_container {
+    background: url("./assets/left.png") no-repeat bottom center/cover;
+    position: relative;
+    height: calc(100vh - 90px);
+    z-index: 2;
+  }
+
+  .right {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+    z-index: 2;
+    transform: translate(0, 20%);
+    z-index: 2;
+  }
+}
