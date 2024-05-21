@@ -173,16 +173,7 @@ const Form = () => {
       {currentStep === 2 && (
         <div className={styles.success_container}>
           <h2 className={styles.success_heading}>Congratulations</h2>
-          <p className={styles.para}>Your appointment has been booked at : </p>
-          <div>
-            <p className={styles.time_slot_para}>
-              Date :{formatDate(currentSelectedDate?.date)}
-            </p>
-            <p className={styles.time_slot_para}>
-              Time : {formatTime(currentSelectedDate?.startTime)} -{" "}
-              {formatTime(currentSelectedDate?.endTime)}
-            </p>
-          </div>
+          <p className={styles.para}>Your appointment has been booked</p>
 
           <button
             onClick={() => window.location.reload()}

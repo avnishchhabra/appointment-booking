@@ -230,7 +230,7 @@
 .back_btn {
   font-size: 14px;
   cursor: pointer;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .back_btn:hover {
@@ -264,8 +264,8 @@
 }
 
 .back_btn {
-  background-color: #378760;
-  color: #fff;
+  color: #378760;
+  text-decoration: underline;
   border: none;
   cursor: pointer;
   max-width: 100px;
