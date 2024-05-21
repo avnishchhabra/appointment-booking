@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/appointment-booking/static/css/main.9c7e950d.css",
+    "main.js": "/appointment-booking/static/js/main.a1adbdca.js",
+    "static/media/left.png": "/appointment-booking/static/media/left.4f19a7e7e383f316295a.png",
+    "index.html": "/appointment-booking/index.html",
+    "main.9c7e950d.css.map": "/appointment-booking/static/css/main.9c7e950d.css.map",
+    "main.a1adbdca.js.map": "/appointment-booking/static/js/main.a1adbdca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c7e950d.css",
+    "static/js/main.a1adbdca.js"
+  ]
+}
