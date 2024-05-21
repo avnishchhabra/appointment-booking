@@ -4,12 +4,11 @@ import IconRight from "../../assets/IconRight";
 import IconDown from "../../assets/IconDown";
 import SingleSlot from "../SingleSlot/SingleSlot";
 import Loader from "../Loader/Loader";
-import { formatDate, formatDateFull, formatTime } from "../../utils";
+import { formatDateFull } from "../../utils";
 import CustomCalendar from "../Calendar/Calendar";
 import ListHeading from "../ListHeading/ListHeading";
 import useGetBookingValues from "../../hooks/useGetBookingValues";
 import {
-  clearState,
   setCurrentStep,
   setIsActive,
   setIsSelected,
@@ -145,11 +144,7 @@ const Form = () => {
         <div className={styles.bottom}>
           <div className={styles.bottom_left}>
             Powered by{" "}
-            <a
-              target="_blank"
-              className={styles.bottom_left_link}
-              href="https://google.com"
-            >
+            <a className={styles.bottom_left_link} href="https://google.com">
               APPOINTO
             </a>
           </div>

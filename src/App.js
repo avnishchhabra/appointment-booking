@@ -11,7 +11,7 @@ function App() {
       <section className={styles.body_container}>
         <Form />
         <div className={styles.right}>
-          <img src={RightImage} />
+          <img src={RightImage} alt="img" />
         </div>
       </section>
     </main>
